@@ -1,0 +1,21 @@
+S	Medium
+C	x	GARRY	0	-5	0	-1	0	0	null	BLUEMat	0	Alex
+C	x	LLOYD	50	60	0	-1	0	0	null	REDMat	1	Ralph
+C	x	DOTTY	-10	-5	0	-1	0	0	null	PURPLEMat	2	Kathy
+C	x	BROOKE	0	-7	0	-1	0	0	null	GREENMat	3	Vicki
+M	x	FRONTDOOR	0	-5	Yellow
+M	x	STUDY	-10	-5	Green
+P	x	NEWSPAPER	-5	40	Blue
+M	x	TABLE	-5	40	Cyan
+M	x	COUCH	10	40	Purple
+M	x	MARK	10	20	Pink
+M	x	AUDIENCE	0	100
+M	x	STAGERIGHT	50	50
+M	x	CENTER	0	37
+M	x	CENTERBACKSTAGE	-7.5	0
+M	x	CENTERRIGHT	32	37
+M	x	CENTERLEFT	-32	37
+M	x	DOWNSTAGE	0	100
+M	x	STAGELEFT	-50	37
+M	x	UPSTAGE	0	0
+T	NoisesLegend.png

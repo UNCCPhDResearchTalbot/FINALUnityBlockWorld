@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Files/BMLFile.txt">
+    <Files>
+      <File FileName="Assets/Scripts/ChangeMaterials.cs" Line="18" Column="1" />
+      <File FileName="Assets/Scripts/GlobalObjs.cs" Line="412" Column="5" />
+      <File FileName="Assets/Scripts/CharFuncs.cs" Line="249" Column="22" />
+      <File FileName="Assets/Scripts/InitScript.cs" Line="421" Column="46" />
+      <File FileName="Assets/Scripts/QueueObj.cs" Line="31" Column="4" />
+      <File FileName="Assets/Scripts/miniQueueObj.cs" Line="27" Column="63" />
+      <File FileName="Assets/Files/InputFile.txt" Line="85" Column="167" />
+      <File FileName="Assets/Scripts/NewCharScript.cs" Line="860" Column="3" />
+      <File FileName="Assets/Files/BMLFile.txt" Line="83" Column="371" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

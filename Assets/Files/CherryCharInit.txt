@@ -1,0 +1,21 @@
+S	Medium
+C	x	ANYA	-50	50	0	-1	0	0	null	BLUEMat	0	Kathy
+C	x	YASHA	-10	35	0	-1	0	0	null	REDMat	1	Fred
+C	x	EPIKHODOV	50	40	0	-1	0	0	null	YELLOWMat	2	Bruce
+C	x	TROFIMOV	30	50	0	-1	0	0	null	GREENMat	3	Alex
+C	x	LOPAKHIN	25	48	0	-1	0	0	null	PURPLEMat	4	Ralph
+C	x	VARYA	-50	55	0	-1	0	0	null	PINKMat	5	Victoria
+P	x	TRUNK	30	45	Yellow
+P	x	BOX	25	45	Blue
+M	x	CHAIR	-10	25	Green
+M	x	TABLE	-30	25	Cyan
+M	x	DOOR	-45	50	Purple
+M	x	AUDIENCE	0	100
+M	x	STAGERIGHT	50	50
+M	x	CENTER	0	37
+M	x	CENTERBACKSTAGE	-7.5	0
+M	x	CENTERRIGHT	32	37
+M	x	DOWNSTAGE	0	100
+M	x	STAGELEFT	-50	37
+M	x	UPSTAGE	0	0
+T	CherryLegend.png

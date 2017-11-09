@@ -1,0 +1,8 @@
+S	Medium
+C	x	JACK	10	50	0	-1	0	0	null	BLUEMat	0	Alex
+C	x	LADYBRACKNELL	13	50	0	-1	0	0	null	REDMat	1	Kathy
+C	x	MISSPRISM	16	50	0	-1	0	0	null	YELLOWMat	2	Vicki
+C	x	GWENDOLEN	19	50	0	-1	0	0	null	GREENMat	3	Victoria
+C	x	CHASUBLE	22	50	0	-1	0	0	null	PURPLEMat	4	Agnes
+C	x	ALGERNON	25	50	0	-1	0	0	null	PINKMat	5	Bruce
+C	x	CECILY	28	50	0	-1	0	0	null	CYANMat	6	Princess
