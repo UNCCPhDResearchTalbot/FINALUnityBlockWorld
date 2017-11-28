@@ -116,6 +116,10 @@ public class InitScript : MonoBehaviour {
 	static float wtimer = 0.0f;
 	static float wtimerMax = 1.0f;
 	
+	static bool alldone = false;
+	static float atimer = 0.0f;
+	static float atimerMax = 4.0f;
+	
 	static float pauseamt = 0.0f;
 	static float pausemax = 5.0f;
 	static float pauseforces = 30.0f;
@@ -230,6 +234,16 @@ public class InitScript : MonoBehaviour {
 				inum = -1;	
 				wtimer = 0.0f;
 				wait = false;
+			}
+		}
+		if (alldone) {
+			atimer +=Time.deltaTime;
+			if (atimer > atimerMax) {
+				GlobalObjs.removeOne (inum);
+				inum = -1;
+				atimer = 0.0f;
+				alldone = false;
+				started = false;
 			}
 		}
 	}
@@ -1002,7 +1016,11 @@ public class InitScript : MonoBehaviour {
 	            // exit - nothing left to do
 	            Debug.Log ("CJT MESSAGE=DONE!!");
 	            inputFile.Close ();
-	            started = false;
+				QueueObj temp = new QueueObj(null, null, new Vector3(0,0,0), QueueObj.actiontype.intermission);
+						inum = temp.msgNum;
+						GlobalObjs.globalQueue.Add(temp);
+				alldone = true;
+//	            started = false;
 	            inputFile = null;
 	            //currentMessageNum = 0;
 	           // Application.Quit ();

@@ -242,7 +242,7 @@ public class CharFuncs : MonoBehaviour {
 		if (speaking) {
 			stimer += Time.deltaTime;
 		}
-		if (myProcess != null && myProcess.WaitForExit(1000) && stimer > stimerMin) {
+		if (myProcess != null && myProcess.HasExited && stimer > stimerMin) {// had 1000 in the waitforexit - this should force everything to finish before stopping speaking
 			// tell everyone I'm done speaking
 			Debug.Log ("Done Speaking at "+Time.time+" for "+thisChar.name);
 			myProcess.Close ();
